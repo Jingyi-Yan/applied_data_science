@@ -1,7 +1,43 @@
-demo1
+Wine Quality
 ==============================
 
-A short description of the project.
+Data Source: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+
+Project Description:
+
+This project is aimed to look into the elements or factors that influence the WINE QUALITY by using the multiple classification model like Logistic Regression. In this project, I will fit the Logisitic Regression to make predictions. Using Confusion Martix, Accuracy rate, Error Rate, ROC/AUC as my performance metric analysis of different models. Also, use the hyperparameter tunning like Grid-Search and Random-Search to optimze the model performance. 
+Use Pipeline in the "model" file to realize automation workflow.
+
+Performance Metric:
+Confusion Matrix, Accuracy Rate, Error rate, ROC/AUC
+
+Data Description:
+
+For more information, read [Cortez et al., 2009].
+Input variables (based on physicochemical tests):
+1 - fixed acidity
+2 - volatile acidity
+3 - citric acid
+4 - residual sugar
+5 - chlorides
+6 - free sulfur dioxide
+7 - total sulfur dioxide
+8 - density
+9 - pH
+10 - sulphates
+11 - alcohol
+
+
+Output variable (based on sensory data):
+12 - quality (score between 0 and 10)
+
+Direct Link:
+
+Final Project Notebook:
+https://github.com/Jingyi-Yan/applied_data_science/blob/master/Project_JingyiYan/notebooks/Final%20Project.ipynb
+
+Pipeline:
+https://github.com/Jingyi-Yan/applied_data_science/blob/master/Project_JingyiYan/src/models/Pipeline.ipynb
 
 Project Organization
 ------------
@@ -13,9 +49,8 @@ Project Organization
     │   └── raw            <- The original, immutable data dump.
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <-Jupyter notebooks. project EDA, preprocessing visualization, and hyperparameters tuning
+    │   └── FinalProject.ipynb
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -28,20 +63,9 @@ Project Organization
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   ├── models         <- Use Pipeline to fit logistic regression model
     │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   │   ├── pipeline.ipynb
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
