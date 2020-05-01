@@ -5,7 +5,7 @@ Data Source: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
 
 Project Description:
 
-This project is aimed to look into the elements or factors that influence the WINE QUALITY by using the multiple classification model like Logistic Regression. In this project, I will fit the Logisitic Regression to make predictions. Using Confusion Martix, Accuracy rate, Error Rate, ROC/AUC as my performance metric analysis of different models. Also, use the hyperparameter tunning like Grid-Search and Random-Search to optimze the model performance. 
+This project is aimed to look into the elements or factors that influence the WINE QUALITY by using the multiple classification model like Logistic Regression. In this project, I will fit the Logisitic Regression to make predictions. Using Confusion Martix, Accuracy rate, Error Rate, ROC/AUC as my performance metric analysis of different models. Also, use the hyperparameter tunning like Grid-Search to optimze the model performance. 
 Use Pipeline in the "model" file to realize automation workflow.
 
 Performance Metric:
