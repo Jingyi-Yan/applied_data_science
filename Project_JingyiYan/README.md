@@ -69,6 +69,11 @@ Project Organization
 
 The work I submitted represents my work and my work alone. I abode by the academic integrity policy and I am aware of the consequences associated with engaging in academic misconduct.
 
+Reference
+------------
+https://www.kaggle.com/willkoehrsen/intro-to-model-tuning-grid-and-random-search
+https://www.kaggle.com/madhurisivalenka/basic-machine-learning-with-red-wine-quality-data
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
