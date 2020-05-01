@@ -67,6 +67,8 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
 
+The work I submitted represents my work and my work alone. I abode by the academic integrity policy and I am aware of the consequences associated with engaging in academic misconduct.
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
